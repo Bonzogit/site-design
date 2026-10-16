@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "version": "0.4.0",
+  "scope": "本次已发现且与网站策划相关的研究能力；非全部聊天归档或全功能运行时",
+  "entries": [
+    {
+      "id": "refero",
+      "title": "Refero 参考研究与画面对照",
+      "text": "references/visual-research.md",
+      "summary": "风格、屏幕、流程按职责研究；原站观察、主方向锁定与同状态对照。",
+      "features": [
+        "视觉",
+        "风格",
+        "参考",
+        "布局",
+        "页面",
+        "flow",
+        "style",
+        "screen",
+        "反模板"
+      ],
+      "url": "https://refero.design/",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "finesse-brief",
+      "title": "Finesse Brief 产品定义",
+      "text": "references/product-ui.md",
+      "summary": "对象、模块能力、实体与数据写入者、冷启动、首日空态与可执行初稿。",
+      "features": [
+        "产品",
+        "需求",
+        "后台",
+        "数据",
+        "空态",
+        "工作台",
+        "冷启动",
+        "brief"
+      ],
+      "url": null,
+      "version": "0.5.0",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "4d7c79f5895eaef89d7c92cd89b71716c6de01141418cc7e7d39f8e5a4249e64",
+      "limitations": [
+        "本机原文可读；上游仓库出处和再分发许可全文未核验，不复制第三方全文或宣称独立工具已运行。"
+      ]
+    },
+    {
+      "id": "finesse-ui",
+      "title": "Finesse UI 界面任务区分",
+      "text": "references/product-ui.md",
+      "summary": "品牌、产品、工作流与H5的任务区别；视觉一致性、反模板和困难状态。",
+      "features": [
+        "品牌",
+        "后台",
+        "H5",
+        "手机",
+        "一致性",
+        "视觉",
+        "ui"
+      ],
+      "url": null,
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "4d7c79f5895eaef89d7c92cd89b71716c6de01141418cc7e7d39f8e5a4249e64",
+      "limitations": [
+        "本机原文可读；上游仓库出处和再分发许可全文未核验，不复制第三方全文或宣称独立工具已运行。"
+      ]
+    },
+    {
+      "id": "finesse-term",
+      "title": "Finesse Term 口语到行为规格",
+      "text": "references/product-ui.md",
+      "summary": "按用户原话确定触发、对象、结束与回退；安全区、焦点、滚动锁等配套行为。",
+      "features": [
+        "术语",
+        "需求表达",
+        "手机",
+        "安全区",
+        "弹窗",
+        "往回滑",
+        "键盘",
+        "term"
+      ],
+      "url": null,
+      "version": "0.1.0",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "4d7c79f5895eaef89d7c92cd89b71716c6de01141418cc7e7d39f8e5a4249e64",
+      "limitations": [
+        "本机原文可读；上游仓库出处和再分发许可全文未核验，不复制第三方全文或宣称独立工具已运行。"
+      ]
+    },
+    {
+      "id": "hairline",
+      "title": "Hairline 互动线稿与原创图形方法",
+      "text": "references/motion-selection.md",
+      "summary": "等距线稿、稳定命中、一个对象一个动作、统一时钟；原生成器/验证器按需读取。",
+      "features": [
+        "线稿",
+        "结构",
+        "指针",
+        "拆解",
+        "隐喻",
+        "图形",
+        "svg",
+        "isometric"
+      ],
+      "url": "https://github.com/lucasmarkes/hairline",
+      "version": "snapshot:a2217852fed6d1a4f20bc7d43d4fad1a3de117b8",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "a913bbc822906b6280ee7a51a4a89bcc54d14ab4fb3337b29ab1beb1fae19778",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "motion-lab",
+      "title": "动效实验室选型与独立组件",
+      "text": "references/motion-selection.md",
+      "summary": "五种独立组件、effects/research分层，按任务选择并交接生命周期。",
+      "features": [
+        "动效",
+        "导航",
+        "弹窗",
+        "表单",
+        "标签",
+        "显现",
+        "画廊",
+        "回放",
+        "motion",
+        "tabs",
+        "form"
+      ],
+      "url": null,
+      "version": "local-catalog:1.23.0",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "a913bbc822906b6280ee7a51a4a89bcc54d14ab4fb3337b29ab1beb1fae19778",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "engines",
+      "title": "动画引擎与几何研究",
+      "text": "references/motion-selection.md",
+      "summary": "时间线、弹簧、滚动、GPU、物理、形变、路径算法按任务选择，固定版本与静态回退。",
+      "features": [
+        "GSAP",
+        "Anime",
+        "Motion",
+        "Lenis",
+        "Three",
+        "OGL",
+        "Pixi",
+        "Matter",
+        "Lottie",
+        "Flubber",
+        "Earcut",
+        "Rive",
+        "弹簧",
+        "三维",
+        "路径"
+      ],
+      "url": "https://animejs.com/documentation/",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "a913bbc822906b6280ee7a51a4a89bcc54d14ab4fb3337b29ab1beb1fae19778",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "pro-max",
+      "title": "UI/UX Pro Max",
+      "text": "references/visual-research.md",
+      "summary": "行业与风格候选建议，不自动替代本次设计；原安装目录缺失。",
+      "features": [
+        "行业",
+        "颜色",
+        "字体",
+        "检索",
+        "Pro Max"
+      ],
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "impeccable",
+      "title": "Impeccable",
+      "text": "references/visual-research.md",
+      "summary": "反模式、批评与润色方法；CLI与阅读指令分开，原安装目录缺失。",
+      "features": [
+        "评审",
+        "audit",
+        "polish",
+        "反模式",
+        "Impeccable"
+      ],
+      "url": "https://github.com/pbakaus/impeccable",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "galaxy",
+      "title": "Galaxy 组件源码库",
+      "text": "references/visual-research.md",
+      "summary": "选中控件的画面/源码、许可和接线检查；不是另一套后端。",
+      "features": [
+        "组件",
+        "按钮",
+        "卡片",
+        "输入",
+        "Galaxy"
+      ],
+      "url": "https://github.com/uiverse-io/galaxy",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "gsap-skills",
+      "title": "GSAP Skills 与运行时边界",
+      "text": "references/motion-selection.md",
+      "summary": "指导正确使用GSAP；指令集不包含运行库，许可与运行依赖分别核对。",
+      "features": [
+        "GSAP",
+        "时间线",
+        "滚动",
+        "动画编排"
+      ],
+      "url": "https://github.com/greensock/gsap-skills",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "a913bbc822906b6280ee7a51a4a89bcc54d14ab4fb3337b29ab1beb1fae19778",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "design-original",
+      "title": "VoltAgent/awesome-design-md",
+      "text": "references/visual-research.md",
+      "summary": "保留原规范与已完成Demo；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "VoltAgent/awesome-design-md"
+      ],
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "version": "c7c1bada4eda972236d124e06ee58df129a9266b",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-marc",
+      "title": "MarcBender-git/awesome-design",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "MarcBender-git/awesome-design"
+      ],
+      "url": "https://github.com/MarcBender-git/awesome-design",
+      "version": "aaebdbfa009d3e4c60fd1853ddc9b7b7b98c7738",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-mobile",
+      "title": "Meliwat/awesome-ios-design-md",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "Meliwat/awesome-ios-design-md"
+      ],
+      "url": "https://github.com/Meliwat/awesome-ios-design-md",
+      "version": "5d3aeca239caef3ea4080034eb22ab87cc77fa24",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-commerce",
+      "title": "xjli360/awesome-design-md-ecommerce",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "xjli360/awesome-design-md-ecommerce"
+      ],
+      "url": "https://github.com/xjli360/awesome-design-md-ecommerce",
+      "version": "e4dc419594fae8b1f5f678e0dc5e335e71b8e3bb",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-fudge",
+      "title": "scroobius-pip/fudge-design-md",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "scroobius-pip/fudge-design-md"
+      ],
+      "url": "https://github.com/scroobius-pip/fudge-design-md",
+      "version": "185cdffdd1906f6cb177ac789a34c31d1bebf582",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-community",
+      "title": "albemala/design-md-library",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "albemala/design-md-library"
+      ],
+      "url": "https://github.com/albemala/design-md-library",
+      "version": "b77c816b1dc643760344a459db102ce3f35b7c39",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-official",
+      "title": "VoltAgent/official-design-md",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "VoltAgent/official-design-md"
+      ],
+      "url": "https://github.com/VoltAgent/official-design-md",
+      "version": "7236b0562b219d12b778ef9cc66ac1e3422801ff",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-format",
+      "title": "google-labs-code/design.md",
+      "text": "references/visual-research.md",
+      "summary": "规范原文导入；未导入全部截图、素材或运行代码；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "google-labs-code/design.md"
+      ],
+      "url": "https://github.com/google-labs-code/design.md",
+      "version": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "design-official-web",
+      "title": "品牌官方设计系统",
+      "text": "references/visual-research.md",
+      "summary": "官方在线入口；未复制品牌资产或网站；通过既有规范库回读所选原文。",
+      "features": [
+        "设计规范",
+        "品牌",
+        "字体",
+        "颜色",
+        "布局",
+        "design-md",
+        "品牌官方设计系统"
+      ],
+      "url": "https://designsystem.porsche.com/",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "limitations": [
+        "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
+      ]
+    },
+    {
+      "id": "imagegen",
+      "title": "图像生成与编辑",
+      "text": "references/content-discovery.md",
+      "summary": "素材用途、构图、裁切、统一风格与真实证据边界；实际生成需ImageGen工具。",
+      "features": [
+        "图片",
+        "素材",
+        "生成",
+        "裁切",
+        "imagegen"
+      ],
+      "url": null,
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "jianying",
+      "title": "剪映视频制作",
+      "text": "references/content-discovery.md",
+      "summary": "镜头、字幕、封面与静态回退；实际剪辑需剪映环境与原Skill。",
+      "features": [
+        "视频",
+        "字幕",
+        "剪辑",
+        "封面",
+        "剪映"
+      ],
+      "url": null,
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "b2b-fast",
+      "title": "B2B采购路径与正文规划",
+      "text": "references/content-discovery.md",
+      "summary": "采购意图、产品信息和询盘可靠性；不继承无CMS默认或固定样板页。",
+      "features": [
+        "采购",
+        "询盘",
+        "产品",
+        "SEO",
+        "B2B"
+      ],
+      "url": "https://github.com/jackzhang1314/b2b-fast-builder",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "seo-content",
+      "title": "SEO/GEO 内容表达",
+      "text": "references/content-discovery.md",
+      "summary": "真实信息、页面职责与内部链接；不暴露关键词规划，不承诺排名和AI引用。",
+      "features": [
+        "SEO",
+        "GEO",
+        "搜索",
+        "文章",
+        "多语言"
+      ],
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "asset-import",
+      "title": "已有内容与图片分发研究",
+      "text": "references/content-discovery.md",
+      "summary": "授权采集、字段对应、原图与展示图、占位及按用途分发。",
+      "features": [
+        "抓取",
+        "素材",
+        "图片",
+        "对象存储",
+        "CDN",
+        "内容导入"
+      ],
+      "url": null,
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "lead-ops",
+      "title": "私域与后续获客研究",
+      "text": "references/content-discovery.md",
+      "summary": "按市场选择微信、企微、邮件或WhatsApp，记录后续任务，不保证自动获客。",
+      "features": [
+        "微信",
+        "企微",
+        "私域",
+        "跟进",
+        "获客"
+      ],
+      "url": "https://doc.xiaoliebian.com/",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "business-boundary",
+      "title": "翻译、邮件与建站业务边界",
+      "text": "references/content-discovery.md",
+      "summary": "规划维护字段、翻译回退和真实保存状态；运行服务交给现有建站实现。",
+      "features": [
+        "翻译",
+        "邮件",
+        "后台",
+        "保存",
+        "维护"
+      ],
+      "url": "https://github.com/Bonzogit/b2b-createsite",
+      "version": null,
+      "evidenceStatus": "method-integrated-source-reviewed",
+      "license": null,
+      "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
+      "limitations": [
+        "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    }
+  ]
+}

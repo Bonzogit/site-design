@@ -1,7 +1,32 @@
 {
   "schemaVersion": 1,
   "sources": [
-    {"id": "design-library", "kind": "design-md", "root": "./your-design-library-dist"},
-    {"id": "motion-library", "kind": "motion-lab", "root": "./your-motion-lab-public"}
+    {
+      "id": "design-library",
+      "kind": "design-md",
+      "root": "./your-design-library-dist"
+    },
+    {
+      "id": "motion-library",
+      "kind": "motion-lab",
+      "root": "./your-motion-lab-public"
+    },
+    {
+      "id": "selected-research",
+      "kind": "documents",
+      "root": "./your-research-root",
+      "documents": [
+        {
+          "id": "selected-method",
+          "title": "已选择的研究资料",
+          "text": "notes/method.md",
+          "summary": "解决的问题与适用范围",
+          "features": [
+            "research"
+          ],
+          "license": null
+        }
+      ]
+    }
   ]
 }

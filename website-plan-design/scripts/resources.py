@@ -30,7 +30,7 @@ def configuration(path=None):
         raise ValueError('Unsupported resource configuration version')
     sources = []
     for row in data.get('sources', []):
-        if row.get('kind') not in ('design-md', 'motion-lab'):
+        if row.get('kind') not in ('design-md', 'motion-lab', 'documents'):
             raise ValueError('Unknown resource kind')
         root = Path(os.path.expandvars(row['root'])).expanduser()
         root = root if root.is_absolute() else path.parent / root
@@ -42,7 +42,23 @@ def configuration(path=None):
 
 def entries(source):
     root, kind = source['root'], source['kind']
-    if kind == 'design-md':
+    if kind == 'documents':
+        records = read(contained(root, source['catalog'])).get('entries', []) if source.get('catalog') else source.get('documents', [])
+        seen = set()
+        for item in records:
+            identity = item.get('id')
+            if not isinstance(identity, str) or not identity.strip() or identity in seen:
+                raise ValueError('Document IDs must be nonempty and unique within a source')
+            seen.add(identity)
+            path = contained(root, item['text'])
+            yield {'id': source['id'] + ':' + identity, 'kind': kind,
+                   'title': item['title'], 'source': item.get('url'),
+                   'version': item.get('version'), 'evidenceStatus': item.get('evidenceStatus', 'source-only'),
+                   'summary': item.get('summary', ''), 'features': item.get('features', []),
+                   'limitations': list(item.get('limitations', ['Read-only source; not an installed runtime or verified design.'])),
+                   'license': item.get('license'), 'available': path.is_file(),
+                   'raw': item, '_source': source}
+    elif kind == 'design-md':
         manifest = read(root / 'spec-manifest.json')
         index_path = root / 'spec-analysis-index.json'
         index = read(index_path).get('records', {}) if index_path.is_file() else {}
@@ -81,6 +97,12 @@ def entries(source):
                    'license': None, 'raw': {'guide': 'site-kit/guide.html', 'component': name}, '_source': source}
 
 
+def builtin_sources():
+    """Portable authored capability notes; external full sources stay configured."""
+    return [{'id': 'knowledge', 'kind': 'documents',
+             'root': Path(__file__).resolve().parents[1], 'catalog': 'assets/knowledge-catalog.json'}]
+
+
 def public(row):
     return {k: v for k, v in row.items() if k not in ('_source', 'raw')}
 
@@ -114,7 +136,7 @@ def inspect(sources, identity, max_chars=16000):
                 continue
             item, root = row['raw'], source['root']
             result = {**public(row), 'metadata': item}
-            relative = item.get('text') if source['kind'] == 'design-md' else item.get('guide')
+            relative = item.get('text') if source['kind'] in ('design-md', 'documents') else item.get('guide')
             if relative:
                 path = contained(root, relative)
                 raw = path.read_bytes()
@@ -140,7 +162,8 @@ def main():
     sub.add_parser('doctor')
     find = sub.add_parser('search')
     find.add_argument('--query', required=True)
-    find.add_argument('--kind', choices=['all', 'design-md', 'motion-lab'], default='all')
+    find.add_argument('--kind', choices=['all', 'design-md', 'motion-lab', 'documents'], default='all')
+    find.add_argument('--source', help='Restrict metadata search to one configured source ID')
     find.add_argument('--limit', type=int, default=6)
     detail = sub.add_parser('inspect')
     detail.add_argument('--id', required=True)
@@ -148,18 +171,26 @@ def main():
     args = parser.parse_args()
     try:
         sources, warnings = configuration(args.config)
+        if any(source['id'] == 'knowledge' for source in sources):
+            raise ValueError('Source ID knowledge is reserved for bundled notes')
+        sources = builtin_sources() + sources
         if args.command == 'doctor':
             checks = []
             for source in sources:
                 try:
-                    count = sum(1 for _ in entries(source))
-                    checks.append({'sourceId': source['id'], 'kind': source['kind'], 'readable': True, 'entries': count})
+                    rows = list(entries(source))
+                    missing = [row['id'] for row in rows if row.get('available') is False]
+                    checks.append({'sourceId': source['id'], 'kind': source['kind'], 'readable': not missing, 'entries': len(rows), 'missingDocuments': missing})
                 except (OSError, ValueError, KeyError) as error:
                     checks.append({'sourceId': source['id'], 'readable': False, 'error': str(error)})
             result = {'sources': checks, 'warnings': warnings, 'visualResearchPerformed': False}
         elif args.command == 'search':
             if not 1 <= args.limit <= 50:
                 raise ValueError('limit must be 1..50')
+            if args.source:
+                sources = [source for source in sources if source['id'] == args.source]
+                if not sources:
+                    raise ValueError('Unknown source ID')
             rows, errors = search(sources, args.query, args.kind, args.limit)
             result = {'candidates': rows, 'warnings': warnings + errors, 'selectionPerformed': False}
         else:

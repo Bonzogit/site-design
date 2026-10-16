@@ -6,3 +6,5 @@
 
 OpenAI Skill结构参考：https://developers.openai.com/plugins/concepts/skills
 统一建站接口：https://github.com/Bonzogit/b2b-createsite
+
+0.4.0新增的方法与能力卡是对已读研究的原创重整；来源与基线见website-plan-design/references/sources.md。Finesse原文在本机前置信息标为MIT，但未核验独立许可全文及公开上游，因此没有再分发其全文、数据或脚本。Hairline、Refero、设计规范、组件、字体与动画运行库仍按各原作者许可处理；GSAP Skills与GSAP运行时不混用许可。索引和本包MIT不授予品牌素材使用权。
