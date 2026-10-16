@@ -1,24 +1,25 @@
-# 网站策划与设计 / 0.1.1
+# 网站策划与设计
 
-从产品名自主研究网站任务、内容、视觉、素材和交互，选择实际资源并交给现有建站 Skill。
+通用的建站前置 Skill。输入产品、服务、业务用途或改版目标，产出能直接交给现有建站 Skill 的具体方案。当前版本 **0.2.0**。
 
-入口：[website-plan-design/SKILL.md](website-plan-design/SKILL.md)。安装时将整个 website-plan-design 文件夹放入宿主的用户 skills 目录；本机交付已另行安装。使用示例：`使用 $website-plan-design 为电脑主机网站完成策划与设计，并交给现有建站 Skill 实现。`
+## 具体做什么
 
-## 已提供
+- 从访客需要完成的判断或操作推导页面、导航和模块顺序，而非套同一套首页。
+- 给出每页、每块的目的、内容草稿、事实依据、布局、图片、操作和手机表达。
+- 研究实际参考，选定主要视觉方向，并落实字体、颜色、宽度、间距、裁切与组件状态。
+- 为缺少的素材给制作要求；按需使用规范库、动效库和图像工具，不把概念素材冒充真实业务证据。
+- 明确关键路径、样板范围、内容维护与验收预期，交给建站继续执行。
 
-- 按产品重新决定页面和关键路径，不固定三页或模块顺序。
-- 可选本地规范/动效索引读取器，支持 doctor、search、inspect，检查原文摘要与目录边界。
-- 交接兼容性检查：读取建站共同契约，复用其询盘适配器并调用原始设计/核心检查器。
-- 与已有项目设计文件及 [验收 Skill](https://github.com/Bonzogit/check-skills) 的交接和定向回退。
+入口：[SKILL.md](website-plan-design/SKILL.md)。详细方法：[策划与内容](website-plan-design/references/planning.md)、[视觉与交互](website-plan-design/references/design.md)、[交接](website-plan-design/references/handoff.md)。
 
-资源库接入见 [说明](website-plan-design/references/resources.md)；配置留在用户环境，仓库不含图库、规范快照、凭据或作者机器路径。工具只检索与回读，实际研究和选择仍由执行者完成。Refero可用时沿用其方法；接口失败记录原因并用实际可访问来源继续。
+用户不必提供完整买家画像、文案或参考清单；资料不足时主动研究、标明假设并选择可成立的表达。一般设计决定由执行者完成。仅要求方案时不创建网站。
 
-## 配合与范围
+## 怎样配合建站
 
-策划设计 → 现有建站工程的关键路径样板 → 验收修正 → 扩展与部署 → 公网复验。主业务核心仍由 [统一建站](https://github.com/Bonzogit/b2b-createsite) 维护。安装不等于自动后台调度；同一执行者可按交接顺序使用。
+策划方案 → 现有建站 Skill 实现关键路径样板 → [验收 Skill](https://github.com/Bonzogit/check-skills)检查 → 定向修订 → 扩展与交付。[完整交接流程](website-plan-design/references/workflow.md)。
 
-首次验证使用一个仅给产品名的概念样板；见 [验证范围](VALIDATION.md)。它不证明所有行业、品牌、外部服务或审美均已通过。
+通用方法不绑定框架、行业或部署平台。与[统一建站](https://github.com/Bonzogit/b2b-createsite)配合时，另按[接口适配](website-plan-design/references/compatibility.md)读取实际共同契约；其他建站器使用自己的内容和业务接口。资源库配置可选，见[资源接入](website-plan-design/references/resources.md)。
 
-当前固定版本：[versions/v0.1.1](https://github.com/Bonzogit/site-design/tree/versions/v0.1.1)；[上一版 v0.1.0](https://github.com/Bonzogit/site-design/tree/versions/v0.1.0)。
+将 website-plan-design 文件夹放入宿主的用户 skills 目录即可使用；按需求正常选择 Skill，无需记忆某个产品的调用句。公开包不含具体网站工程、客户数据、私有资源路径或部署凭据。
 
-与 unified-site-builder 1.9.1 的共同接口已联调；使用前按[兼容性检查](website-plan-design/references/compatibility.md)检查实际安装与工程。旧版建站缺少契约时明确报错，不伪装兼容。
+验证与限制见[VALIDATION.md](VALIDATION.md)。[当前 v0.2.0](https://github.com/Bonzogit/site-design/tree/versions/v0.2.0) · [上一版 v0.1.1](https://github.com/Bonzogit/site-design/tree/versions/v0.1.1)，历史分支固定保留。

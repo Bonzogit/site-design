@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "skill": "website-plan-design",
   "files": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "4a41af3d587a4dcd32d21093d594650fbc1ba28e88f345639514179f4dca7b32"
+      "sha256": "c26e0c42a1eb12f9e5b46960fd22c9b035cedd427600d63fa471408b0016d7a1"
     },
     {
       "path": "LICENSE",
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "79937074bfcf65e787412547213ab798d3b6550c47b4e4bc90e116851773a024"
+      "sha256": "46b6f55911d7a2611fb1d1b0f3278d1fc666e102b9fa05a9359159a88ea6f336"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -32,15 +32,15 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "25e155d0dc71087fa72a1e72882aeb3678204cbea707115a2d63509c0d78e0b5"
+      "sha256": "a049d99ef27ad6f57e7a9c2dfdb77a6a71eab0085d24624a0c64b29291dbc20f"
     },
     {
       "path": "VERSION",
-      "sha256": "80447316529fc62014fbaa047fb67c51ac30e32830cda370405349d8d66d196c"
+      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
     },
     {
       "path": "website-plan-design/agents/openai.yaml",
-      "sha256": "48d005102e84f51815a8f25ba852cc4b1c6d92f59ad5b341bc415e13cf7df3e1"
+      "sha256": "67bebed28e3596d9e372c30fca6720cfca9e51f03363cffcb874282a26e8b694"
     },
     {
       "path": "website-plan-design/assets/resources.example.json",
@@ -51,16 +51,24 @@
       "sha256": "cc56f3f0c5d531aeb207e6abaa113f8ca1d3ac7e811577a14e0c29772ea7aed2"
     },
     {
+      "path": "website-plan-design/references/design.md",
+      "sha256": "1d01ef19328c45ba6ef2620a34440971d7aed60b8d8820264fc3aca6f748e3f3"
+    },
+    {
       "path": "website-plan-design/references/handoff.md",
-      "sha256": "53609a5ac6c60e29f4b6580a043acc363de75e6d3681e38d6bfe224855403195"
+      "sha256": "15040c67f5e78185c7ee53bc62efe4fea80fb57ca5bb566e053f3c987f8cbcf9"
+    },
+    {
+      "path": "website-plan-design/references/planning.md",
+      "sha256": "558c5ce193fc2c26dd94a580449d8c645a86ac6acb14a239f4aefa028437bfd2"
     },
     {
       "path": "website-plan-design/references/resources.md",
-      "sha256": "7199d250264401447ee19e9261de9eb358ba457e6036c18360620d1ebff1225f"
+      "sha256": "698fb8e27488caa394e23eb4b0733e793676e84552b81db061f9d4435ec713fe"
     },
     {
       "path": "website-plan-design/references/workflow.md",
-      "sha256": "4cf5f20086d85cc188a179bf5e5ac11a65d13a77a2d2c78b2798f28d2151a5aa"
+      "sha256": "b96262e343e60c6d99b2f41114c0e8642bc5068255da44d4777a61b66d8ccaad"
     },
     {
       "path": "website-plan-design/scripts/compatibility_check.py",
@@ -80,7 +88,7 @@
     },
     {
       "path": "website-plan-design/SKILL.md",
-      "sha256": "46469ce40e10d67401f15cd774e19fae1e004d341230e2f7427080db44522cd7"
+      "sha256": "c2b67c79fe52eeac427a5f4e239b1d5481e80a03f3b687111aac78f6b28bfd1a"
     }
   ]
 }
