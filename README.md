@@ -1,6 +1,6 @@
 # 网站策划与设计
 
-通用的建站前置 Skill。输入产品、服务、业务用途或改版目标，产出能直接交给现有建站 Skill 的具体方案。当前版本 **0.2.0**。
+通用的建站前置 Skill。输入产品、服务、业务用途或改版目标，产出能直接交给现有建站 Skill 的具体方案。当前版本 **0.3.0**。
 
 ## 具体做什么
 
@@ -22,4 +22,6 @@
 
 将 website-plan-design 文件夹放入宿主的用户 skills 目录即可使用；按需求正常选择 Skill，无需记忆某个产品的调用句。公开包不含具体网站工程、客户数据、私有资源路径或部署凭据。
 
-验证与限制见[VALIDATION.md](VALIDATION.md)。[当前 v0.2.0](https://github.com/Bonzogit/site-design/tree/versions/v0.2.0) · [上一版 v0.1.1](https://github.com/Bonzogit/site-design/tree/versions/v0.1.1)，历史分支固定保留。
+验证与限制见[VALIDATION.md](VALIDATION.md)。[当前 v0.3.0](https://github.com/Bonzogit/site-design/tree/versions/v0.3.0) · [上一版 v0.2.0](https://github.com/Bonzogit/site-design/tree/versions/v0.2.0)，历史分支固定保留。
+
+本版补充[研究到设计的推导方法](website-plan-design/references/synthesis.md)、[交接自查](website-plan-design/references/readiness.md)和可选[方案骨架](website-plan-design/assets/plan-outline.md)。骨架只组织输出，不规定页面或模块。完善 Skill、只做方案与实施网站分别处理，不自动启动具体验证项目。

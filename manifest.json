@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "skill": "website-plan-design",
   "files": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "c26e0c42a1eb12f9e5b46960fd22c9b035cedd427600d63fa471408b0016d7a1"
+      "sha256": "31b82fde534516f09597bdc76d075384b8c7745f7ad5c7aefb4b8e46cb3e0095"
     },
     {
       "path": "LICENSE",
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "46b6f55911d7a2611fb1d1b0f3278d1fc666e102b9fa05a9359159a88ea6f336"
+      "sha256": "85a232d936b9862f1891caea993a1403277eddf4e9253e53edb63424733c6549"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -32,15 +32,19 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "a049d99ef27ad6f57e7a9c2dfdb77a6a71eab0085d24624a0c64b29291dbc20f"
+      "sha256": "88b2b01ad67b84e07fa12923854c0e5b681336e68ed14369b10a70784451a87a"
     },
     {
       "path": "VERSION",
-      "sha256": "1f930dd1f133c1f97a94fe3acb8db34372cf4c01ffdb2b3ff4ca72f9494121e9"
+      "sha256": "d915cc95d6ca8f47ae297713ed46d4e5c5d99ddd29fc3c61e263bdf305f2b5b0"
     },
     {
       "path": "website-plan-design/agents/openai.yaml",
       "sha256": "67bebed28e3596d9e372c30fca6720cfca9e51f03363cffcb874282a26e8b694"
+    },
+    {
+      "path": "website-plan-design/assets/plan-outline.md",
+      "sha256": "41b519a5d79868c84900ce1adfe18c9dfaed4be666df9d2f5bfe38ed0cd5ef3d"
     },
     {
       "path": "website-plan-design/assets/resources.example.json",
@@ -63,8 +67,16 @@
       "sha256": "558c5ce193fc2c26dd94a580449d8c645a86ac6acb14a239f4aefa028437bfd2"
     },
     {
+      "path": "website-plan-design/references/readiness.md",
+      "sha256": "5273db105d93d0322a841166afdd5ac5f368bf35e3b8f67cdb77abb457ea2ead"
+    },
+    {
       "path": "website-plan-design/references/resources.md",
       "sha256": "698fb8e27488caa394e23eb4b0733e793676e84552b81db061f9d4435ec713fe"
+    },
+    {
+      "path": "website-plan-design/references/synthesis.md",
+      "sha256": "697eb3b5ecb37fb0f56924c6e824c3f6bedcdb188ceb1db11f114a99450bfda8"
     },
     {
       "path": "website-plan-design/references/workflow.md",
@@ -88,7 +100,7 @@
     },
     {
       "path": "website-plan-design/SKILL.md",
-      "sha256": "c2b67c79fe52eeac427a5f4e239b1d5481e80a03f3b687111aac78f6b28bfd1a"
+      "sha256": "9c78bec2605a9cb226794563a6384cb8bffa4b063f51e4773d7b3973f3d0d314"
     }
   ]
 }
