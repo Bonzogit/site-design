@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "skill": "website-plan-design",
   "files": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "d8775d114c812e5ef31d08eefb202a655e0c192b693f6934d6d51695d2086192"
+      "sha256": "d6de1a0985198cda13fc3821bf0ddcb4ec29c6640975d66405cfac8b0c103aec"
     },
     {
       "path": "LICENSE",
@@ -24,11 +24,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "4258c677048941a4aa1f7206ab47cfc945173ef1d521ae0e6a9fd987c440afc7"
+      "sha256": "b2860c0fcff2294bb24f92844ab54499a49b9962794f68b8b6719b36902cc7dc"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "243e03a6b8b7c764a5171f6a63b5ba48468a700c431a88e10da3b1b615fc3cc4"
+      "sha256": "8a0fbfb68518991eaf537ee0ef9d01de3984c963765205bc35b60be582662b8f"
     },
     {
       "path": "tools/release_check.py",
@@ -36,11 +36,11 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "c64fa40cf8fee769b0e47b4cea5a6414770bd681d64d03b52ff3b1d7609a1bc2"
+      "sha256": "d3fadeb6ddc860f62c4ebc79493d3a301c7071a055df8c8895f35d3464000444"
     },
     {
       "path": "VERSION",
-      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8"
+      "sha256": "aba951626c8690ce493cbc8f018205bb468003f61fbf00fd3d3c71cebabc0177"
     },
     {
       "path": "website-plan-design/agents/openai.yaml",
@@ -48,7 +48,7 @@
     },
     {
       "path": "website-plan-design/assets/knowledge-catalog.json",
-      "sha256": "808429720929a012829804dbc77f746416291a283844350100239b70355f38d0"
+      "sha256": "5d56e24291b9f2942054f9679ae6f0704d6188699b1f3db3376497835c545662"
     },
     {
       "path": "website-plan-design/assets/plan-outline.md",
@@ -79,8 +79,12 @@
       "sha256": "1d01ef19328c45ba6ef2620a34440971d7aed60b8d8820264fc3aca6f748e3f3"
     },
     {
+      "path": "website-plan-design/references/experience-prevention.md",
+      "sha256": "65ef0f1e77dfc6897331970b5796ccd884fef738565c4ade00e85fad39ef82ca"
+    },
+    {
       "path": "website-plan-design/references/handoff.md",
-      "sha256": "15040c67f5e78185c7ee53bc62efe4fea80fb57ca5bb566e053f3c987f8cbcf9"
+      "sha256": "9799aa0b47dc8dd9b2e5efb4a8e4849504955c5e36b444bdea68599fc6bf00af"
     },
     {
       "path": "website-plan-design/references/motion-selection.md",
@@ -100,7 +104,7 @@
     },
     {
       "path": "website-plan-design/references/readiness.md",
-      "sha256": "5273db105d93d0322a841166afdd5ac5f368bf35e3b8f67cdb77abb457ea2ead"
+      "sha256": "a6fb91273d78e31ef7d9c06017490a1b79d7f31f1ab21f7ec18a8beda74d072e"
     },
     {
       "path": "website-plan-design/references/resources.md",
@@ -108,7 +112,7 @@
     },
     {
       "path": "website-plan-design/references/sources.md",
-      "sha256": "f708d440574c37dd9daf227cdfe63bff6038f46ee888efc9bef1a22f55cd9aeb"
+      "sha256": "8b0e48710fdde68e5556aa3e5aa48b955278d43cded56a62da244ab19656ad83"
     },
     {
       "path": "website-plan-design/references/synthesis.md",
@@ -152,7 +156,7 @@
     },
     {
       "path": "website-plan-design/SKILL.md",
-      "sha256": "3a33b116f3deddd747baceba8009aeaaf92687f1cdf370041a19d3eb1f570337"
+      "sha256": "b41529350ef6299741f7615696c2fb049dc823e77e69df0b8c401860eff76365"
     }
   ]
 }

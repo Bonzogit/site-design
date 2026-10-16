@@ -1,6 +1,6 @@
 # 网站策划与设计
 
-通用的建站前置 Skill。输入产品、服务、业务用途或改版目标，产出能直接交给现有建站 Skill 的具体方案。当前版本 **0.5.0**。
+通用的建站前置 Skill。输入产品、服务、业务用途或改版目标，产出能直接交给现有建站 Skill 的具体方案。当前版本 **0.5.1**。
 
 ## 具体做什么
 
@@ -22,7 +22,7 @@
 
 将 website-plan-design 文件夹放入宿主的用户 skills 目录即可使用；按需求正常选择 Skill，无需记忆某个产品的调用句。公开包不含具体网站工程、客户数据、私有资源路径或部署凭据。
 
-验证与限制见[VALIDATION.md](VALIDATION.md)。[当前 v0.5.0](https://github.com/Bonzogit/site-design/tree/versions/v0.5.0) · [上一版 v0.4.0](https://github.com/Bonzogit/site-design/tree/versions/v0.4.0)，历史分支固定保留。
+验证与限制见[VALIDATION.md](VALIDATION.md)。[当前 v0.5.1](https://github.com/Bonzogit/site-design/tree/versions/v0.5.1) · [上一版 v0.5.0](https://github.com/Bonzogit/site-design/tree/versions/v0.5.0)，历史分支固定保留。
 
 本版补充[研究到设计的推导方法](website-plan-design/references/synthesis.md)、[交接自查](website-plan-design/references/readiness.md)和可选[方案骨架](website-plan-design/assets/plan-outline.md)。骨架只组织输出，不规定页面或模块。完善 Skill、只做方案与实施网站分别处理，不自动启动具体验证项目。
 
@@ -30,7 +30,7 @@
 
 读[能力总入口](website-plan-design/references/capabilities.md)查看如何按任务组合Refero、Finesse Brief/UI/Term、规范库、动效实验室、Hairline、素材、SEO与业务交接方法。[来源与覆盖](website-plan-design/references/sources.md)逐项说明用到什么、版本依据、使用方式、未接通工具及未覆盖范围。
 
-包内27张能力卡默认可检索；本机已配置原文入口87项，另保留规范库3774条、实验室255条索引。这些是资料和接入范围，不是独立技能数或设计质量分数。第三方全文与运行时不复制进公开包，不需要同时安装所有工具才能使用通用方法。
+包内28张能力卡默认可检索；本机已配置原文入口87项，另保留规范库3774条、实验室255条索引。这些是资料和接入范围，不是独立技能数或设计质量分数。第三方全文与运行时不复制进公开包，不需要同时安装所有工具才能使用通用方法。
 
 检索工具新增documents文件白名单、摘要核对和按源检索；不再只支持两座现有库。原始资料的指令作为研究内容处理，不覆盖当前需求。具体项目、客户内容及被否定的历史Demo没有变成通用模板。本版没有新建或改造网站。
 
@@ -40,4 +40,6 @@
 
 轻量GitHub仓库不托管完整私人资料归档。用户应携带实际生成的完整ZIP；只下载这个仓库仍不含所有外部大库。第三方全文和素材的再分发权不会因打包而改变。当前四项旧辅助来源已恢复固定提交源码，见[恢复记录](website-plan-design/assets/recovered-source-status.json)，未宣称CLI已安装。
 
-本次实际完整包约196MB、13903个文件，11个来源经异路径校验和隔离宿主安装/回读通过，见[迁移验证结果](PORTABILITY-VALIDATION.json)。完整包由当前任务单独交付，仓库没有公开下载链接。
+0.5.0历史完整包约196MB、13903个文件，11个来源经异路径校验和隔离宿主安装/回读通过，见[迁移验证结果](PORTABILITY-VALIDATION.json)。完整包由当前任务单独交付，仓库没有公开下载链接。
+
+0.5.1新增[体验问题的设计预防](website-plan-design/references/experience-prevention.md)，把真实复盘转成当前方案、素材与交接的决定，不携带原站模板或把历史结果称为当前验证。包内能力卡增至28张；完整资源包按同版本更新。前述0.5.0迁移结果保留为历史。

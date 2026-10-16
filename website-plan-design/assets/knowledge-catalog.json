@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.0",
+  "version": "0.5.1",
   "scope": "本次已发现且与网站策划相关的研究能力；非全部聊天归档或全功能运行时",
   "entries": [
     {
@@ -617,6 +617,40 @@
       "sha256": "ad1b6025f5a4148afee9bc151381acfea3948873da1dc59df6e079c1b3168ae7",
       "limitations": [
         "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
+      ]
+    },
+    {
+      "id": "experience-prevention",
+      "title": "体验问题复盘：设计预防与保留项",
+      "text": "references/experience-prevention.md",
+      "summary": "将菜单/稳定命中区/吸附/减少动态/图片角度与慢图/裁切/响应/排版和任务范围经验前移到设计。",
+      "features": [
+        "经验",
+        "防复发",
+        "慢图",
+        "坏图",
+        "图片",
+        "圆角",
+        "角度",
+        "菜单",
+        "触摸",
+        "吸附",
+        "减少动态",
+        "保存偏好",
+        "排版",
+        "平板",
+        "保留动效"
+      ],
+      "url": null,
+      "version": "0.5.1",
+      "evidenceStatus": "retrospective-method-not-current-site-verification",
+      "license": null,
+      "sourceDocument": "EXPERIENCE-REVIEW-1.9.26.md",
+      "sourceDocumentSHA256": "123cfb604cd00b488ddbbb819053775e7301134f2336751c91c0b738bc90e515",
+      "sha256": "65ef0f1e77dfc6897331970b5796ccd884fef738565c4ade00e85fad39ef82ca",
+      "limitations": [
+        "用户提供复盘的脱敏方法整理；未复制原项目数据、网址、截图或发布记录。",
+        "历史测试结果不是当前网站/工具通过证据；不继承该站视觉与时长参数。"
       ]
     }
   ]
