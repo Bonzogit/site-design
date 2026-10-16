@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "sources": [
+    {
+      "id": "pro-max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "477bcb28c9812b385cb51a4605ddf30d7b2266e2",
+      "status": "source-recovered-not-runtime-installed",
+      "archiveSHA256": "e5b1223892189563e00c2dd56c96fc61b9c041af7790dcbbdeae22e894595c3b",
+      "bytes": 8542412,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "materializedAliases": [
+        {
+          "path": "gallery/data/styles.csv",
+          "target": "src/ui-ux-pro-max/data/styles.csv",
+          "handling": "materialized same-archive regular-file bytes"
+        }
+      ],
+      "searchableDocuments": 536
+    },
+    {
+      "id": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "commit": "cf3d2fa07d3ad1814ac5fbbbb5b2043b795eaef1",
+      "downloadURL": "https://codeload.github.com/pbakaus/impeccable/zip/cf3d2fa07d3ad1814ac5fbbbb5b2043b795eaef1",
+      "archiveSHA256": "7b596347de43791aef59e84ab664573cfbc3ee0d96146515d60f549adf489911",
+      "bytes": 27145231,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "status": "source-recovered-not-runtime-installed",
+      "searchableDocuments": 3048
+    },
+    {
+      "id": "gsap-skills",
+      "repo": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "status": "source-recovered-not-runtime-installed",
+      "archiveSHA256": "87a6a1c7f9bd6342af8713709c96e5c8057aef57590f1ba808b18fc8742c34cc",
+      "bytes": 75837,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "materializedAliases": [
+        {
+          "path": "CLAUDE.md",
+          "target": "AGENTS.md",
+          "handling": "materialized same-archive regular-file bytes"
+        },
+        {
+          "path": "GEMINI.md",
+          "target": "AGENTS.md",
+          "handling": "materialized same-archive regular-file bytes"
+        }
+      ],
+      "searchableDocuments": 33
+    },
+    {
+      "id": "galaxy",
+      "repo": "uiverse-io/galaxy",
+      "commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
+      "downloadURL": "https://codeload.github.com/uiverse-io/galaxy/zip/adbd2adde0a299a3956ea288fb444ec01891ca41",
+      "archiveSHA256": "4fad5b896f0b03f59c54667b3b6cec2ee8a7481e4e4e0350c9674f41ab87a321",
+      "bytes": 4458371,
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "status": "source-recovered-not-runtime-installed",
+      "searchableDocuments": 3803
+    }
+  ],
+  "runtimeInstalled": false
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "skill": "website-plan-design",
   "files": [
     {
@@ -8,23 +8,27 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "3d2c943649a8b14321c76cdb4b6470daa1e248c0e9abc587e2889055a8bc57f7"
+      "sha256": "e54c89a0944807802114de2033a4b84095e541fccacee588091cd1bfd338c7d8"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "04d578717e567975a5db544a7cc4673685215b014e3f1a1f44359a97a9ea7cbf"
+      "sha256": "d8775d114c812e5ef31d08eefb202a655e0c192b693f6934d6d51695d2086192"
     },
     {
       "path": "LICENSE",
       "sha256": "de8028921fe629ea3370879dc211a4e45f17b0594fc93b65f7a80e8ce378e561"
     },
     {
+      "path": "PORTABILITY-VALIDATION.json",
+      "sha256": "f6cac47fb598ed4e556b6a05b43886fbf0f238d662c7a93728f401b84ca3ae1a"
+    },
+    {
       "path": "README.md",
-      "sha256": "b10851efb03da37c6c27e9010d0099fa57ef7e879cba899b295939cd1cd69358"
+      "sha256": "4258c677048941a4aa1f7206ab47cfc945173ef1d521ae0e6a9fd987c440afc7"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "25f5f4cd7009b1883acb9fd6d254765a90d33c1b333309bfc2d8e8c0bcf156eb"
+      "sha256": "243e03a6b8b7c764a5171f6a63b5ba48468a700c431a88e10da3b1b615fc3cc4"
     },
     {
       "path": "tools/release_check.py",
@@ -32,11 +36,11 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "f2aae88812e907cbaeed0e6c21d6acd4ee95e6330aebc5ee59e194f4970772c8"
+      "sha256": "c64fa40cf8fee769b0e47b4cea5a6414770bd681d64d03b52ff3b1d7609a1bc2"
     },
     {
       "path": "VERSION",
-      "sha256": "40b8eb4000a913a7791090535f291d3d369874162a89ef3c9e3d4e887a1b9e79"
+      "sha256": "a0ad50640139a524f86591157145bf1d4674ea9c065bfea21558f0f7b04430c8"
     },
     {
       "path": "website-plan-design/agents/openai.yaml",
@@ -44,11 +48,15 @@
     },
     {
       "path": "website-plan-design/assets/knowledge-catalog.json",
-      "sha256": "924e6ca117b63db454fdbcd635e765bd244fad76148f333831bd287c1f3f27f4"
+      "sha256": "808429720929a012829804dbc77f746416291a283844350100239b70355f38d0"
     },
     {
       "path": "website-plan-design/assets/plan-outline.md",
       "sha256": "41b519a5d79868c84900ce1adfe18c9dfaed4be666df9d2f5bfe38ed0cd5ef3d"
+    },
+    {
+      "path": "website-plan-design/assets/recovered-source-status.json",
+      "sha256": "8f2559f5dc2e3aabd674076d7e1a98c72d5dc2c29bc8b6465503cad1950c08cd"
     },
     {
       "path": "website-plan-design/assets/resources.example.json",
@@ -83,6 +91,10 @@
       "sha256": "558c5ce193fc2c26dd94a580449d8c645a86ac6acb14a239f4aefa028437bfd2"
     },
     {
+      "path": "website-plan-design/references/portability.md",
+      "sha256": "7a2537428e8691e88c9aff8addeedf913909a9eaa63cc367fdf62ede059e5a21"
+    },
+    {
       "path": "website-plan-design/references/product-ui.md",
       "sha256": "4d7c79f5895eaef89d7c92cd89b71716c6de01141418cc7e7d39f8e5a4249e64"
     },
@@ -96,7 +108,7 @@
     },
     {
       "path": "website-plan-design/references/sources.md",
-      "sha256": "125ed39e9838c0078c9ca0a6139a9f501cf3b0d8ce554326fdc497bbb9e1d9bc"
+      "sha256": "f708d440574c37dd9daf227cdfe63bff6038f46ee888efc9bef1a22f55cd9aeb"
     },
     {
       "path": "website-plan-design/references/synthesis.md",
@@ -104,7 +116,7 @@
     },
     {
       "path": "website-plan-design/references/visual-research.md",
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1"
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6"
     },
     {
       "path": "website-plan-design/references/workflow.md",
@@ -113,6 +125,10 @@
     {
       "path": "website-plan-design/scripts/compatibility_check.py",
       "sha256": "dd74f280d7e854c6c6048b453e86a1af6d101b3be3dff52706d18c54684d10f8"
+    },
+    {
+      "path": "website-plan-design/scripts/portable_resources.py",
+      "sha256": "a128e57f0e4576996d3ed0493cc1b337f85a23eb3753677e0280c1ca2dd217f9"
     },
     {
       "path": "website-plan-design/scripts/resources.py",
@@ -127,12 +143,16 @@
       "sha256": "33d224dabb922c1405dadf89b7cad0c6b3ee637f65594157ea625b8daad76798"
     },
     {
+      "path": "website-plan-design/scripts/test_portable_resources.py",
+      "sha256": "22b9d044b3c50591cc76e1223529f9a6010ce1faaf88cfaabcd9e634f4a1d276"
+    },
+    {
       "path": "website-plan-design/scripts/test_resources.py",
       "sha256": "d2e818c4c27822a81ae69bb7df072e2f912f9949da3abe4c692d3567a3b8cbf4"
     },
     {
       "path": "website-plan-design/SKILL.md",
-      "sha256": "00dc8c36150d8424b6c53a56f72035132d35a2f4739777eec8abeee0c6ced11e"
+      "sha256": "3a33b116f3deddd747baceba8009aeaaf92687f1cdf370041a19d3eb1f570337"
     }
   ]
 }

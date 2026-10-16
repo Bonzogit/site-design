@@ -1,0 +1,67 @@
+{
+  "version": "0.5.0",
+  "archiveSHA256": "f0bb26de889fddb7f50e6503e1c0d9119484c6fedfc3e292fa945274351e447c",
+  "archiveBytes": 195909773,
+  "verifiedFiles": 13903,
+  "relocatedSources": [
+    {
+      "id": "design-library",
+      "entries": 3774,
+      "readable": true
+    },
+    {
+      "id": "motion-library",
+      "entries": 255,
+      "readable": true
+    },
+    {
+      "id": "finesse",
+      "entries": 33,
+      "readable": true
+    },
+    {
+      "id": "hairline-source",
+      "entries": 11,
+      "readable": true
+    },
+    {
+      "id": "refero-source",
+      "entries": 11,
+      "readable": true
+    },
+    {
+      "id": "imagegen-source",
+      "entries": 6,
+      "readable": true
+    },
+    {
+      "id": "jianying-source",
+      "entries": 26,
+      "readable": true
+    },
+    {
+      "id": "aux-pro-max",
+      "entries": 536,
+      "readable": true
+    },
+    {
+      "id": "aux-impeccable",
+      "entries": 3048,
+      "readable": true
+    },
+    {
+      "id": "aux-gsap-skills",
+      "entries": 33,
+      "readable": true
+    },
+    {
+      "id": "aux-galaxy",
+      "entries": 3803,
+      "readable": true
+    }
+  ],
+  "freshHostInstalled": true,
+  "independentCliDoctorPassed": true,
+  "environment": "isolated paths and new host directory on current Windows computer; not a second physical machine",
+  "runtimeToolsVerified": false
+}

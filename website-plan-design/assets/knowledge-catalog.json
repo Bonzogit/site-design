@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "scope": "本次已发现且与网站策划相关的研究能力；非全部聊天归档或全功能运行时",
   "entries": [
     {
@@ -23,7 +23,7 @@
       "version": null,
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
       ]
@@ -197,7 +197,7 @@
       "version": null,
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
       ]
@@ -218,7 +218,7 @@
       "version": null,
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
       ]
@@ -239,7 +239,7 @@
       "version": null,
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "包内为本次重整方法；第三方原文、运行时与当前网站效果需分别核对。"
       ]
@@ -282,7 +282,7 @@
       "version": "c7c1bada4eda972236d124e06ee58df129a9266b",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -305,7 +305,7 @@
       "version": "aaebdbfa009d3e4c60fd1853ddc9b7b7b98c7738",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -328,7 +328,7 @@
       "version": "5d3aeca239caef3ea4080034eb22ab87cc77fa24",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -351,7 +351,7 @@
       "version": "e4dc419594fae8b1f5f678e0dc5e335e71b8e3bb",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -374,7 +374,7 @@
       "version": "185cdffdd1906f6cb177ac789a34c31d1bebf582",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -397,7 +397,7 @@
       "version": "b77c816b1dc643760344a459db102ce3f35b7c39",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -420,7 +420,7 @@
       "version": "7236b0562b219d12b778ef9cc66ac1e3422801ff",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -443,7 +443,7 @@
       "version": "9bf8eae67128b6cc55ad9bf86665767deb4c11cd",
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]
@@ -466,7 +466,7 @@
       "version": null,
       "evidenceStatus": "method-integrated-source-reviewed",
       "license": null,
-      "sha256": "ae5fc9d481161274670b36691ae23de71725b3ddaf99629c9f5816f0de8e44f1",
+      "sha256": "1214aa82efea8b0511d520500aab0024f93efaf345aded508f0b04e8be08c6f6",
       "limitations": [
         "规范来源及许可沿原库登记；索引与方法不代表完整原站画面已验证，也不授予品牌素材权利。"
       ]

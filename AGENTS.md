@@ -6,4 +6,4 @@
 - Do not confuse record validation, source reading, screenshots and actual browser interactions.
 - Reuse current project evidence by scope. Preserve the existing website, database, files and deployment target.
 - After validation, publish to this repository main, then create versions/v<version> at that release commit. Never overwrite an existing snapshot branch.
-- Resource libraries are user-configured inputs, not bundled or silently copied dependencies.
+- Resource libraries are explicit user-configured inputs. The user authorized complete private migration bundles; preserve source notices and exclude credentials/customer data. Publish portable methods and tooling here, not private full-source archives or machine paths.
