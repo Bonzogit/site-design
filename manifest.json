@@ -1,0 +1,82 @@
+{
+  "version": "0.1.0",
+  "skill": "website-plan-design",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "7471a95b7e15a57001c7f26e776bea9dedd255693a32978df502579c5ac00313"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "3d2c943649a8b14321c76cdb4b6470daa1e248c0e9abc587e2889055a8bc57f7"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "8255a94f2cecb25f4b096976283645baca41e1dd35af54fd00a9568b5db47d1a"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "de8028921fe629ea3370879dc211a4e45f17b0594fc93b65f7a80e8ce378e561"
+    },
+    {
+      "path": "README.md",
+      "sha256": "06b0f7b5ada6d767162a9f609c133fa9137a74ca1268d4292aa45c18c357837e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "74d6e2a0c2d275abf091face82ca9612e5689b34f1b8d0227974149c6e51532e"
+    },
+    {
+      "path": "tools/release_check.py",
+      "sha256": "13320f0e36f083a858cd6cd826674ce18625516084cf3965b90e64f8a22f9ce2"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "689cf4dd469a1d1301a0f979e0d25d24cec2b87c19b2b4611c4a9dd1f97f0067"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "3d097c315a1c543040f548da4c7051265e94c77211a2411ced1d4621344270de"
+    },
+    {
+      "path": "website-plan-design/agents/openai.yaml",
+      "sha256": "48d005102e84f51815a8f25ba852cc4b1c6d92f59ad5b341bc415e13cf7df3e1"
+    },
+    {
+      "path": "website-plan-design/assets/resources.example.json",
+      "sha256": "32a55a8b6a0bf04c6725a8b3913c7120a66dbc39170b86c6e9cf14a3827743cd"
+    },
+    {
+      "path": "website-plan-design/assets/site-kit-inquiry-adapter.mjs",
+      "sha256": "6029a78b36982981ed3dd481a83d24834511c5b1fb64bbb68dd224f4b382f421"
+    },
+    {
+      "path": "website-plan-design/references/handoff.md",
+      "sha256": "06e12e09dcb814b08a773a3c26b3280cc8a3b91a348571d9ca75e1c7528fbae6"
+    },
+    {
+      "path": "website-plan-design/references/resources.md",
+      "sha256": "7199d250264401447ee19e9261de9eb358ba457e6036c18360620d1ebff1225f"
+    },
+    {
+      "path": "website-plan-design/references/workflow.md",
+      "sha256": "4cf5f20086d85cc188a179bf5e5ac11a65d13a77a2d2c78b2798f28d2151a5aa"
+    },
+    {
+      "path": "website-plan-design/scripts/resources.py",
+      "sha256": "99afa59d0a5ee5d58fc5392b4484832e7b2bf2c5a88f264158a2e3edd44718b8"
+    },
+    {
+      "path": "website-plan-design/scripts/test_inquiry_adapter.mjs",
+      "sha256": "7146ce71efe68f47d1f832ecb87b8fd6597f6e3c4ef7117d4914d3c9ea5548b2"
+    },
+    {
+      "path": "website-plan-design/scripts/test_resources.py",
+      "sha256": "d2e818c4c27822a81ae69bb7df072e2f912f9949da3abe4c692d3567a3b8cbf4"
+    },
+    {
+      "path": "website-plan-design/SKILL.md",
+      "sha256": "40f056d234c6c514bc8c0f1f1ebfe864ff5f7ddd1dc4fea6dc5b5e7d2d37d656"
+    }
+  ]
+}

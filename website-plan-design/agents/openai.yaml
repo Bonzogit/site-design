@@ -1,0 +1,4 @@
+interface:
+  display_name: "网站策划与设计"
+  short_description: "从产品名自主研究网站结构、视觉、素材与交互，连接现有资源并形成可执行交接方案"
+  default_prompt: "使用 $website-plan-design 为当前产品完成研究、设计与资源选型，并交接给现有建站 Skill。"

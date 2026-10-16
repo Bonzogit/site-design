@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {"id": "design-library", "kind": "design-md", "root": "./your-design-library-dist"},
+    {"id": "motion-library", "kind": "motion-lab", "root": "./your-motion-lab-public"}
+  ]
+}
