@@ -1,4 +1,4 @@
-# 网站策划与设计 / 0.1.0
+# 网站策划与设计 / 0.1.1
 
 从产品名自主研究网站任务、内容、视觉、素材和交互，选择实际资源并交给现有建站 Skill。
 
@@ -8,7 +8,7 @@
 
 - 按产品重新决定页面和关键路径，不固定三页或模块顺序。
 - 可选本地规范/动效索引读取器，支持 doctor、search、inspect，检查原文摘要与目录边界。
-- 统一询盘适配器：稳定 submissionKey、原有保存接口、附件和独立邮件状态。
+- 交接兼容性检查：读取建站共同契约，复用其询盘适配器并调用原始设计/核心检查器。
 - 与已有项目设计文件及 [验收 Skill](https://github.com/Bonzogit/check-skills) 的交接和定向回退。
 
 资源库接入见 [说明](website-plan-design/references/resources.md)；配置留在用户环境，仓库不含图库、规范快照、凭据或作者机器路径。工具只检索与回读，实际研究和选择仍由执行者完成。Refero可用时沿用其方法；接口失败记录原因并用实际可访问来源继续。
@@ -19,4 +19,6 @@
 
 首次验证使用一个仅给产品名的概念样板；见 [验证范围](VALIDATION.md)。它不证明所有行业、品牌、外部服务或审美均已通过。
 
-当前固定版本：[versions/v0.1.0](https://github.com/Bonzogit/site-design/tree/versions/v0.1.0)。首版暂无旧版本；后续保留历史快照。
+当前固定版本：[versions/v0.1.1](https://github.com/Bonzogit/site-design/tree/versions/v0.1.1)；[上一版 v0.1.0](https://github.com/Bonzogit/site-design/tree/versions/v0.1.0)。
+
+与 unified-site-builder 1.9.1 的共同接口已联调；使用前按[兼容性检查](website-plan-design/references/compatibility.md)检查实际安装与工程。旧版建站缺少契约时明确报错，不伪装兼容。

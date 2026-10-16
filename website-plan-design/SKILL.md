@@ -2,7 +2,7 @@
 name: website-plan-design
 description: "为新网站或整体改版自主完成产品研究、信息架构、素材与交互选型，并交接给建站执行；可只输入产品名。接入用户配置的规范库与动效库，沿用可用的 Refero 方法。不用于局部样式修补、单纯查资料或直接部署。"
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # 网站策划与设计
@@ -21,7 +21,7 @@ metadata:
 
 使用 unified-site-builder 时读取实际版本的设计、模块接线与主题接口；现有业务核心由建站 Skill 负责。规划中的字段要对应后台管理位置。选中实验室组件时登记独立入口、依赖、内容输入、事件、销毁和回退；只引入所选实现。不要导入实验室总目录、演示主题或第二套询盘数据库。
 
-本包提供 [询盘适配器](assets/site-kit-inquiry-adapter.mjs)：将实验室 submit(values,{signal,key}) 转为统一 `/api/v1/inquiries` 的 submissionKey、附件及成功响应协议；须在当前项目实测后使用。它是可选接线资源，不是已完成的邮件、支付或库存服务。
+询盘适配器统一由建站 Skill 维护，使用生成工程的 `/assets/inquiry-adapter.js`，本包不再复制业务实现。交接前按 [兼容性检查](references/compatibility.md) 检查已安装建站版本与工程接口；旧工程须先比较原核心，再按原项目更新流程适配，不能只改版本号。
 
 设计偏差由实现修正；真实素材或技术限制影响设计时，修改相关决定并记录原因，不能悄悄换成默认主题。后续使用 website-quality-review 对照实际页面核对。两个 Skill 可以由同一执行者顺序使用，不自动生成独立代理或后台调度。
 
